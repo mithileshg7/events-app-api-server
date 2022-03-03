@@ -7,14 +7,16 @@ class MockDatabaseService {
             title: 'an event',
             description: 'something really cool',
             location:  'Somewhere',
-            eventDate: '01/01/2021'
+            eventDate: '01/01/2021',
+            addedToCalender: 'Yes'
         }).then(r => {});
         this.addEvent({
             id: 2,
             title: 'another event',
             description: 'something even cooler',
             location:  'Somewhere Else',
-            eventDate: '02/01/2021'
+            eventDate: '02/01/2021',
+            addedToCalender: 'Yes'
         }).then(r => {});
     }
 
